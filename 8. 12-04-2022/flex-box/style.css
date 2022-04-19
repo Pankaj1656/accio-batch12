@@ -8,7 +8,7 @@
 }
 .flex-container>div{
     background-color: #f1f1f1;
-    margin: 10px;
+    margin: 10px; 
     padding: 20px;
     font-size: 30px;
     width: 100px;
@@ -90,7 +90,7 @@
     height: 100px;
 }
 
-
+/*  */
 /* Styles for index2.html */
 
 .main{
@@ -124,5 +124,5 @@
     flex-basis: 100px;
 }
 .main-4 div:nth-of-type(3){
-    flex-shrink: 3;
+    flex-shrink: 4;
 }

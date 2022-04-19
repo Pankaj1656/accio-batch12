@@ -7,31 +7,34 @@ div{
     position: relative;
     /* animation-delay: -2s; */
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     /* animation-direction: alternate; */
     /* animation-direction: alternate-reverse; */
-    animation-timing-function: ease;
+   animation-timing-function: linear;
     animation-timing-function: ease-in-out;
     /* animation: example 5s linear 2s infinite alternate; */
 }
 
+
 @keyframes example {
-    /* from {
-        background-color: red;
-        height: 100px;
-    }
-    to{
-        background-color: yellow;
-        height: 150px;
-    } */
+     /* from { */
+        /* background-color: red; */
+        /* height: 100px; */
+    /* } */
+    /* to{ */
+        /* background-color: yellow; */
+        /* height: 150px; */
+    /* }  */
     0%{
         background-color: red;
         left: 0;
         top: 0;
+        width: 100px;
         height: 100px;
+
     }
     25%{
-        background-color: blue;
+        background-color: seagreen;
         left: 200px;
         top: 0;
         height: 125px;
